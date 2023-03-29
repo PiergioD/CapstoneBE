@@ -18,11 +18,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.capstoneBE.entity.Scheda;
+import com.example.capstoneBE.security.JwtTokenProvider;
 import com.example.capstoneBE.service.SchedaService;
 
 @RestController
@@ -33,12 +35,12 @@ public class SchedaController {
 	
 	
 	@Autowired SchedaService service;
-	
+	private JwtTokenProvider jwtTokenProvider;
 	
 	
 	// create
 	@PostMapping("/create")
-	@PreAuthorize("hasRole('USER')")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<Scheda> postScheda(@RequestBody Scheda s){
 		
 		service.createScheda(s);
@@ -50,15 +52,21 @@ public class SchedaController {
 	
 	 //get all schede con sorting dato dall utente(per nome o per data)
     @GetMapping("/page/{page}/{sortBy}")
-    @PreAuthorize("hasRole('USER')")
-    public Page<Scheda> getAllScheda(@PathVariable int page, @RequestParam(defaultValue = "10") int size, @PathVariable String sortBy) {
-        Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
+    @PreAuthorize("hasRole('ADMIN')or hasRole('USER')")
+    public Page<Scheda> getAllScheda(@RequestHeader(name = "Authorization")String token,@PathVariable int page, @RequestParam(defaultValue = "10") int size, @PathVariable String sortBy) {
+        
+    	
+    	
+//    	System.out.println(token);
+//    	String username=jwtTokenProvider.getUsername(token);
+//    	System.out.println(username);
+    	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
         return service.getAll(sorting);
     }
 	
 	// get by id
     @GetMapping("/{id}")
-    @PreAuthorize("hasRole('USER')")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Scheda> getClienteById(@PathVariable long id){
         return  new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
     }
@@ -66,7 +74,7 @@ public class SchedaController {
     
     //modifica
     @PutMapping("/update/{id}")
-	@PreAuthorize("hasRole('USER')")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<Scheda> updateScheda(@PathVariable Long id, @RequestBody Scheda schedaToUpdate ) {
 		
     	Scheda schedaEsistente = service.getbyId(id);
@@ -82,7 +90,7 @@ public class SchedaController {
     
   //delete
     @DeleteMapping ("/delete/{id}")
-    @PreAuthorize("hasRole('USER')")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Scheda> deleteCliente(@PathVariable long id){
 
         
@@ -91,7 +99,7 @@ public class SchedaController {
     
     //cerca per data
     @GetMapping("/data/{data}/{page}")
-    @PreAuthorize("hasRole('USER')")
+    @PreAuthorize("hasRole('ADMIN')")
     public Page<Scheda> getByUltimoContatto(@PathVariable LocalDate data,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
     	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
     	return service.cercaTramiteData(data, sorting);
@@ -100,7 +108,7 @@ public class SchedaController {
     
     // cerca per parte del nome
     @GetMapping("/nome/{nome}/{page}")
-    @PreAuthorize("hasRole('USER')")
+    @PreAuthorize("hasRole('ADMIN')")
     public Page<Scheda> getByNome(@PathVariable String nome,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
     	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
     	return service.cercaTramiteNome(nome, sorting);

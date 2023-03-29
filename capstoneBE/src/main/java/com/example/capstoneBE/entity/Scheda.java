@@ -55,10 +55,7 @@ public class Scheda {
     @JoinColumn(name="id_user",referencedColumnName = "id")
     private User utente;
 	
-	@NonNull
-	@ManyToMany(fetch=FetchType.EAGER)
-	@JoinTable(name="esercizi_della_scheda",joinColumns = @JoinColumn(name="scheda_id"),inverseJoinColumns = @JoinColumn(name="esercizio_id"))
-	private Set<Esercizio> esercizi;
+	
 	
 	
 	

@@ -56,14 +56,13 @@ public class Esercizio {
 	@Column(name="ripetizioni_esercizio")
 	private Integer ripetizioni;
 	
-//	// fare relazione many to one a scheda
-//	@NonNull
-//	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.MERGE)
-//	@JoinColumn(name="id_scheda",referencedColumnName = "id")
-//	private Scheda scheda;
+	// fare relazione many to one a scheda
+	@NonNull
+	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.MERGE)
+	@JoinColumn(name="id_scheda",referencedColumnName = "id")
+	private Scheda scheda;
 	
 	
-	@ManyToMany(mappedBy = "esercizi",fetch = FetchType.EAGER)
-	private List<Scheda> schede;
+	
 
 }
