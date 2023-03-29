@@ -16,6 +16,8 @@ public interface SchedaRepository extends JpaRepository<Scheda, Long> {
 	
 	public List<Scheda> findByData(LocalDate date);
 	
+	public List<Scheda> findByNomeContaining(String nome);
+	
 	
 	public List<Scheda> findByOrderByData();
 	

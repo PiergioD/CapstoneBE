@@ -5,6 +5,8 @@ import java.util.List;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,12 +18,16 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor
@@ -40,6 +46,7 @@ public class Esercizio {
 	@Column(name="descrizione_esercizio")
 	private String descrizione;
 	@NonNull
+	@Enumerated(EnumType.STRING)
 	@Column(name="muscolo_interessato")
 	private GruppiMuscolari muscolo;
 	@NonNull
@@ -49,11 +56,14 @@ public class Esercizio {
 	@Column(name="ripetizioni_esercizio")
 	private Integer ripetizioni;
 	
-	// fare relazione many to one a scheda
-	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.ALL)
-	@JoinColumn(name="id_scheda",referencedColumnName = "id")
-	private Scheda scheda;
+//	// fare relazione many to one a scheda
+//	@NonNull
+//	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.MERGE)
+//	@JoinColumn(name="id_scheda",referencedColumnName = "id")
+//	private Scheda scheda;
 	
 	
+	@ManyToMany(mappedBy = "esercizi",fetch = FetchType.EAGER)
+	private List<Scheda> schede;
 
 }

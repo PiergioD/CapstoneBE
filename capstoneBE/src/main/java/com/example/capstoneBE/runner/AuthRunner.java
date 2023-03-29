@@ -36,8 +36,8 @@ public class AuthRunner implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		System.out.println("Run...");
-		//setRoleDefault();
-		//setUserDefault();
+//		setRoleDefault();
+//		setUserDefault();
 		
 	}
 	
@@ -50,17 +50,17 @@ public class AuthRunner implements ApplicationRunner {
 		user.setRoleName(ERole.ROLE_USER);
 		roleRepository.save(user);
 		
-		Role moderator = new Role();
-		moderator.setRoleName(ERole.ROLE_MODERATOR);
-		roleRepository.save(moderator);
+//		Role moderator = new Role();
+//		moderator.setRoleName(ERole.ROLE_MODERATOR);
+//		roleRepository.save(moderator);
 		
 		adminRole = new HashSet<Role>();
 		adminRole.add(admin);
-		adminRole.add(moderator);
+//		adminRole.add(moderator);
 		adminRole.add(user);
 		
 		moderatorRole = new HashSet<Role>();
-		moderatorRole.add(moderator);
+//		moderatorRole.add(moderator);
 		moderatorRole.add(user);
 		
 		userRole = new HashSet<Role>();
@@ -75,11 +75,11 @@ public class AuthRunner implements ApplicationRunner {
 						.map(r -> r.getRoleName().toString())
 						.collect(Collectors.toList())
 				);
-		Set<String> roleModerator = new HashSet<>(
-				moderatorRole.stream()
-						.map(r -> r.getRoleName().toString())
-						.collect(Collectors.toList())
-				);
+//		Set<String> roleModerator = new HashSet<>(
+//				moderatorRole.stream()
+//						.map(r -> r.getRoleName().toString())
+//						.collect(Collectors.toList())
+//				);
 		Set<String> roleUser = new HashSet<>(
 				userRole.stream()
 						.map(r -> r.getRoleName().toString())
@@ -88,7 +88,7 @@ public class AuthRunner implements ApplicationRunner {
 		
 		
 		RegisterDto userAdmin = new RegisterDto();
-		userAdmin.setName("Admino Stretor");
+		userAdmin.setName("Riccardino Fuffolo");
 		userAdmin.setUsername("admin");
 		userAdmin.setEmail("admin@example.com");
 		userAdmin.setPassword(passwordEncoder.encode("admin"));
@@ -96,20 +96,20 @@ public class AuthRunner implements ApplicationRunner {
 		System.out.println(authService.register(userAdmin));
 		
 		RegisterDto simpleUser = new RegisterDto();
-		simpleUser.setName("Mario Rossi");
-		simpleUser.setUsername("mariorossi");
-		simpleUser.setEmail("m.rossi@example.com");
+		simpleUser.setName("Arturo CieloDuro");
+		simpleUser.setUsername("artuduro");
+		simpleUser.setEmail("arturo@example.com");
 		simpleUser.setPassword(passwordEncoder.encode("12345"));
 		simpleUser.setRoles(roleUser);
 		System.out.println(authService.register(simpleUser));
 		
-		RegisterDto userModerator = new RegisterDto();
-		userModerator.setName("Giuseppe Verdi");
-		userModerator.setUsername("giuver");
-		userModerator.setEmail("g.verdi@example.com");
-		userModerator.setPassword(passwordEncoder.encode("qwerty"));
-		userModerator.setRoles(roleModerator);
-		System.out.println(authService.register(userModerator));
+//		RegisterDto userModerator = new RegisterDto();
+//		userModerator.setName("Giuseppe Verdi");
+//		userModerator.setUsername("giuver");
+//		userModerator.setEmail("g.verdi@example.com");
+//		userModerator.setPassword(passwordEncoder.encode("qwerty"));
+//		userModerator.setRoles(roleModerator);
+//		System.out.println(authService.register(userModerator));
 	}
 
 }

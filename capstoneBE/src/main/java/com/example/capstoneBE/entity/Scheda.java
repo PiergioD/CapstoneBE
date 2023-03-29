@@ -19,12 +19,17 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
-@Data
+@Getter
+@Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor
@@ -46,9 +51,14 @@ public class Scheda {
 	
 	// relazione molti a uno con utente
 	@NonNull
-    @ManyToOne(targetEntity = User.class,cascade = CascadeType.ALL)
+    @ManyToOne(targetEntity = User.class,cascade = CascadeType.MERGE)
     @JoinColumn(name="id_user",referencedColumnName = "id")
     private User utente;
+	
+	@NonNull
+	@ManyToMany(fetch=FetchType.EAGER)
+	@JoinTable(name="esercizi_della_scheda",joinColumns = @JoinColumn(name="scheda_id"),inverseJoinColumns = @JoinColumn(name="esercizio_id"))
+	private Set<Esercizio> esercizi;
 	
 	
 	
