@@ -2,6 +2,11 @@ package com.example.capstoneBE.entity;
 
 import java.util.List;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -40,7 +45,7 @@ public class Esercizio {
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private Long id;
 	@NonNull
-	@Column(name="nome_esercizio")
+	@Column(name="nome_esercizio",unique = true)
 	private String nome;
 	@NonNull
 	@Column(name="descrizione_esercizio")
@@ -56,14 +61,17 @@ public class Esercizio {
 	@Column(name="ripetizioni_esercizio")
 	private Integer ripetizioni;
 	
-//	// fare relazione many to one a scheda
-//	@NonNull
-//	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.MERGE)
-//	@JoinColumn(name="id_scheda",referencedColumnName = "id")
-//	private Scheda scheda;
 	
 	
-	@ManyToMany(mappedBy = "esercizi",fetch = FetchType.EAGER)
-	private List<Scheda> schede;
+	// relazione many to one a scheda
+	@JsonIgnore
+	@NonNull
+	@ManyToOne(targetEntity =Scheda.class,cascade = CascadeType.MERGE,fetch = FetchType.EAGER,optional = false)
+	@JoinColumn(name="id_scheda",referencedColumnName = "id",nullable = false)
+	@OnDelete(action = OnDeleteAction.CASCADE)
+	private Scheda scheda;
+	
+	
+	
 
 }

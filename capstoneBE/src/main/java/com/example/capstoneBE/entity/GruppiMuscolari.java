@@ -4,7 +4,7 @@ public enum GruppiMuscolari {
 	
 	
 	
-	Deltodi,Quadricipiti,Tricipiti,Addominali,Bicipiti
+	Spalle,Gambe,Tricipiti,Addominali,Bicipiti,Petto,Dorso
 	
 
 }

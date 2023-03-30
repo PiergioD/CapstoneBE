@@ -1,11 +1,16 @@
 package com.example.capstoneBE.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.support.PageableExecutionUtils;
 import org.springframework.stereotype.Service;
 
 import com.example.capstoneBE.entity.Esercizio;
+import com.example.capstoneBE.entity.Scheda;
 import com.example.capstoneBE.entity.User;
 import com.example.capstoneBE.repository.UserRepository;
 
@@ -50,5 +55,23 @@ public class UserService {
 				
 			}
 	
+			// filtra per email
+			public  Optional<User> cercaTramiteEmail(String email){
+				var userFiltratoPerNome= repo.findByEmail(email);
+				return userFiltratoPerNome;
+			}
+			
+			
+			// filtra per nome 
+			public  Optional<User> cercaTramiteNome(String nome){
+				var userFiltratoPerNome= repo.findByUsername(nome);
+				return userFiltratoPerNome;
+			}
 	
+			
+			
+			
+			
+			
+			
 }

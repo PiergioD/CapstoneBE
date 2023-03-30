@@ -35,7 +35,7 @@ public class AuthRunner implements ApplicationRunner {
 	
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		System.out.println("Run...");
+		System.out.println("Run...Per Creare Utenti");
 //		setRoleDefault();
 //		setUserDefault();
 		
@@ -88,20 +88,20 @@ public class AuthRunner implements ApplicationRunner {
 		
 		
 		RegisterDto userAdmin = new RegisterDto();
-		userAdmin.setName("Riccardino Fuffolo");
+		userAdmin.setName("Ivo Avido");
 		userAdmin.setUsername("admin");
 		userAdmin.setEmail("admin@example.com");
 		userAdmin.setPassword(passwordEncoder.encode("admin"));
 		userAdmin.setRoles(roleAdmin);
 		System.out.println(authService.register(userAdmin));
 		
-		RegisterDto simpleUser = new RegisterDto();
-		simpleUser.setName("Arturo CieloDuro");
-		simpleUser.setUsername("artuduro");
-		simpleUser.setEmail("arturo@example.com");
-		simpleUser.setPassword(passwordEncoder.encode("12345"));
-		simpleUser.setRoles(roleUser);
-		System.out.println(authService.register(simpleUser));
+//		RegisterDto simpleUser = new RegisterDto();
+//		simpleUser.setName("Rupert Sciamenna");
+//		simpleUser.setUsername("vecchioconio");
+//		simpleUser.setEmail("lire@example.com");
+//		simpleUser.setPassword(passwordEncoder.encode("12345"));
+//		simpleUser.setRoles(roleUser);
+//		System.out.println(authService.register(simpleUser));
 		
 //		RegisterDto userModerator = new RegisterDto();
 //		userModerator.setName("Giuseppe Verdi");

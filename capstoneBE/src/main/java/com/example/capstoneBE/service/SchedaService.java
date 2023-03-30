@@ -3,6 +3,7 @@ package com.example.capstoneBE.service;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -12,9 +13,11 @@ import org.springframework.stereotype.Service;
 
 import com.example.capstoneBE.entity.Esercizio;
 import com.example.capstoneBE.entity.Scheda;
+import com.example.capstoneBE.entity.User;
 import com.example.capstoneBE.repository.SchedaRepository;
 
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 
 @Service
 public class SchedaService {
@@ -74,6 +77,13 @@ public class SchedaService {
 		return scheda;
 		
 	}
+	// cerca una scheda in base ad utente
+	public List<Scheda> cercaTramiteUtente(Optional<User> utentePreso){
+		
+		return repo.findByUtente(utentePreso);
+		
+	}
+	
 	
 	
 	// da mettere--> ordina una scheda in base al gruppo muscolare richiesto
@@ -103,5 +113,9 @@ public class SchedaService {
 	}
 		
 	
-	
+	// eliminmo la scheda tramite user
+	  @Transactional
+	    public void deleteScheda(Long schedaId, Long userId) {
+	        repo.deleteScheda(schedaId, userId);
+	    }
 }

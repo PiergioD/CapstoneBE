@@ -4,6 +4,11 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -49,16 +54,20 @@ public class Scheda {
 	private LocalDate data=LocalDate.now();
 	
 	
+	//relazione uno a molti con esercizi
+	@OneToMany(mappedBy = "scheda")
+	private Set<Esercizio> esercizi;
+	
+	
 	// relazione molti a uno con utente
+	@JsonIgnore
 	@NonNull
     @ManyToOne(targetEntity = User.class,cascade = CascadeType.MERGE)
     @JoinColumn(name="id_user",referencedColumnName = "id")
+	@OnDelete(action = OnDeleteAction.CASCADE)
     private User utente;
 	
-	@NonNull
-	@ManyToMany(fetch=FetchType.EAGER)
-	@JoinTable(name="esercizi_della_scheda",joinColumns = @JoinColumn(name="scheda_id"),inverseJoinColumns = @JoinColumn(name="esercizio_id"))
-	private Set<Esercizio> esercizi;
+	
 	
 	
 	
