@@ -58,9 +58,9 @@ public class EsercizioRunner implements ApplicationRunner {
 
 	// metodo per popolarmi il db di schede
 	public void popolaDbScheda() {
-		var list = Stream.of(new Scheda("AllenamentoDelMartedi", serviceUser.getbyId(1l)),
-				new Scheda("AllenamentoDelGiovedi", serviceUser.getbyId(1l)),
-				new Scheda("AllenamentoDelSabato", serviceUser.getbyId(1l))
+		var list = Stream.of(new Scheda("AllenamentoDelMartedi", serviceUser.getbyId(2l)),
+				new Scheda("AllenamentoDelGiovedi", serviceUser.getbyId(2l))
+//				new Scheda("AllenamentoDelSabato", serviceUser.getbyId(3l))
 
 		).toList();
 		serviceScheda.creaAll(list);
@@ -135,35 +135,35 @@ public class EsercizioRunner implements ApplicationRunner {
 						GruppiMuscolari.Bicipiti, 4, 8, serviceScheda.getbyId(2l)),
 				new Esercizio("Chin-up",
 						"Afferrati alla sbarra con le mani a larghezza spalle. Sollevati fino a portare il mento sopra la sbarra, mantenendo i gomiti vicini al corpo",
-						GruppiMuscolari.Bicipiti, 3, 10, serviceScheda.getbyId(2l)),
+						GruppiMuscolari.Bicipiti, 3, 10, serviceScheda.getbyId(2l))
 
-				// gambe scheda 3
-				new Esercizio("Squat",
-						"Posiziona i piedi alla larghezza spalle,piega le ginocchia finché le cosce non sono parallele al pavimento. Poi spingiti verso l'alto utilizzando i quadricipiti",
-						GruppiMuscolari.Gambe, 4, 8, serviceScheda.getbyId(3l)),
-				new Esercizio("Affondi",
-						"In piedi, posiziona piede avanti e uno dietro, con i piedi larghezza spalle. Fletti finché il ginocchio posteriore tocca pavimento,spingiti verso l'alto coi quadricipiti",
-						GruppiMuscolari.Gambe, 3, 12, serviceScheda.getbyId(3l)),
-				new Esercizio("Leg Extension",
-						"Seduto su una panca con i piedi appoggiati su un supporto, estendi le gambe spingendo verso l'alto il supporto con i piedi, coi quadricipiti. Poi rilascia lentamente il supporto",
-						GruppiMuscolari.Gambe, 4, 8, serviceScheda.getbyId(3l)),
-				new Esercizio("Step-up",
-						"Posiziona un piede su gradino o panca, poi spingi verso l'alto utilizzando il piede sulla panca per salire. Poi scendi",
-						GruppiMuscolari.Gambe, 3, 10, serviceScheda.getbyId(3l)),
-
-				// spalle scheda 3
-				new Esercizio("Military press con bilanciere",
-						"Stando in piedi, piedi larghezza delle spalle e il bilanciere in posizione di partenza (vicino alle clavicole), spingi il bilanciere sopra la testa. ",
-						GruppiMuscolari.Spalle, 4, 8, serviceScheda.getbyId(3l)),
-				new Esercizio("Alzate laterali",
-						"In piedi, con le braccia lungo i fianchi, solleva le braccia verso i lati,gomiti leggermente flessi, fino a quando le mani sono all'altezza delle spalle",
-						GruppiMuscolari.Spalle, 3, 12, serviceScheda.getbyId(3l)),
-				new Esercizio("Shoulder shrugs",
-						"In piedi, con le braccia lungo i fianchi, solleva le spalle verso le orecchie, mantenendo i braccioli dritti",
-						GruppiMuscolari.Spalle, 4, 8, serviceScheda.getbyId(3l)),
-				new Esercizio("Reverse fly",
-						"In piedi,piedi larghezza spalle, inclinati in avanti e tieni i manubri in mano. Solleva le braccia verso i lati, gomiti legg. flessi, fino a altezza spalle",
-						GruppiMuscolari.Spalle, 3, 10, serviceScheda.getbyId(3l))
+//				// gambe scheda 3
+//				new Esercizio("Squat",
+//						"Posiziona i piedi alla larghezza spalle,piega le ginocchia finché le cosce non sono parallele al pavimento. Poi spingiti verso l'alto utilizzando i quadricipiti",
+//						GruppiMuscolari.Gambe, 4, 8, serviceScheda.getbyId(3l)),
+//				new Esercizio("Affondi",
+//						"In piedi, posiziona piede avanti e uno dietro, con i piedi larghezza spalle. Fletti finché il ginocchio posteriore tocca pavimento,spingiti verso l'alto coi quadricipiti",
+//						GruppiMuscolari.Gambe, 3, 12, serviceScheda.getbyId(3l)),
+//				new Esercizio("Leg Extension",
+//						"Seduto su una panca con i piedi appoggiati su un supporto, estendi le gambe spingendo verso l'alto il supporto con i piedi, coi quadricipiti. Poi rilascia lentamente il supporto",
+//						GruppiMuscolari.Gambe, 4, 8, serviceScheda.getbyId(3l)),
+//				new Esercizio("Step-up",
+//						"Posiziona un piede su gradino o panca, poi spingi verso l'alto utilizzando il piede sulla panca per salire. Poi scendi",
+//						GruppiMuscolari.Gambe, 3, 10, serviceScheda.getbyId(3l)),
+//
+//				// spalle scheda 3
+//				new Esercizio("Military press con bilanciere",
+//						"Stando in piedi, piedi larghezza delle spalle e il bilanciere in posizione di partenza (vicino alle clavicole), spingi il bilanciere sopra la testa. ",
+//						GruppiMuscolari.Spalle, 4, 8, serviceScheda.getbyId(3l)),
+//				new Esercizio("Alzate laterali",
+//						"In piedi, con le braccia lungo i fianchi, solleva le braccia verso i lati,gomiti leggermente flessi, fino a quando le mani sono all'altezza delle spalle",
+//						GruppiMuscolari.Spalle, 3, 12, serviceScheda.getbyId(3l)),
+//				new Esercizio("Shoulder shrugs",
+//						"In piedi, con le braccia lungo i fianchi, solleva le spalle verso le orecchie, mantenendo i braccioli dritti",
+//						GruppiMuscolari.Spalle, 4, 8, serviceScheda.getbyId(3l)),
+//				new Esercizio("Reverse fly",
+//						"In piedi,piedi larghezza spalle, inclinati in avanti e tieni i manubri in mano. Solleva le braccia verso i lati, gomiti legg. flessi, fino a altezza spalle",
+//						GruppiMuscolari.Spalle, 3, 10, serviceScheda.getbyId(3l))
 
 		).toList();
 		serviceEser.creaAll(list);

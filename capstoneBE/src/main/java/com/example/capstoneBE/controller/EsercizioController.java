@@ -38,7 +38,7 @@ public class EsercizioController {
 	
 	// create
 		@PostMapping
-		@PreAuthorize("hasRole('ADMIN')")
+		@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 		public ResponseEntity<Esercizio> postScheda(@RequestBody Esercizio s){
 			
 			service.create(s);
@@ -50,7 +50,7 @@ public class EsercizioController {
 		
 		 // pagina per fare ordinarli in base ad uno degli attributi di esercizio
 	    @GetMapping("/page/{page}/{sortBy}")
-	    @PreAuthorize("hasRole('ADMIN')")
+	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	    public Page<Esercizio> getAllScheda(@PathVariable int page, @RequestParam(defaultValue = "10") int size, @PathVariable String sortBy) {
 	        Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
 	        return service.getAll(sorting);
@@ -60,7 +60,7 @@ public class EsercizioController {
 	    
 		// get by id
 	    @GetMapping("/{id}")
-	    @PreAuthorize("hasRole('ADMIN')")
+	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	    public ResponseEntity<Esercizio> getClienteById(@PathVariable long id){
 	        return  new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
 	    }
@@ -69,7 +69,7 @@ public class EsercizioController {
 	    
 	    //modifica
 	    @PutMapping("/update/{id}")
-		@PreAuthorize("hasRole('ADMIN')")
+		@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 		public ResponseEntity<Esercizio> updateEsercizio(@RequestBody Esercizio esercizioToUpdate,@PathVariable Long id) {
 			
 	    	Esercizio esercizioEsistente = service.getbyId(id);
@@ -89,7 +89,7 @@ public class EsercizioController {
 	    
 	  //delete
 	    @DeleteMapping ("/delete/{id}")
-	    @PreAuthorize("hasRole('ADMIN')")
+	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	    public ResponseEntity<Esercizio> deleteCliente(@PathVariable long id){
 
 	        
@@ -101,13 +101,15 @@ public class EsercizioController {
 	    
 	    // cerca per parte del nome
 	    @GetMapping("/nome/{nome}/{page}")
-	    @PreAuthorize("hasRole('ADMIN')")
+	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	    public Page<Esercizio> getByNome(@PathVariable String nome,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
 	    	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
 	    	return service.cercaTramiteNome(nome, sorting);
 	    }
 	
 	
+	    
+	    
 	
 	
 }

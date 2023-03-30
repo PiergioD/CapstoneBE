@@ -95,13 +95,13 @@ public class AuthRunner implements ApplicationRunner {
 		userAdmin.setRoles(roleAdmin);
 		System.out.println(authService.register(userAdmin));
 		
-		RegisterDto simpleUser = new RegisterDto();
-		simpleUser.setName("Rupert Sciamenna");
-		simpleUser.setUsername("vecchioconio");
-		simpleUser.setEmail("lire@example.com");
-		simpleUser.setPassword(passwordEncoder.encode("12345"));
-		simpleUser.setRoles(roleUser);
-		System.out.println(authService.register(simpleUser));
+//		RegisterDto simpleUser = new RegisterDto();
+//		simpleUser.setName("Rupert Sciamenna");
+//		simpleUser.setUsername("vecchioconio");
+//		simpleUser.setEmail("lire@example.com");
+//		simpleUser.setPassword(passwordEncoder.encode("12345"));
+//		simpleUser.setRoles(roleUser);
+//		System.out.println(authService.register(simpleUser));
 		
 //		RegisterDto userModerator = new RegisterDto();
 //		userModerator.setName("Giuseppe Verdi");

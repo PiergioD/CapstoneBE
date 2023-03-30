@@ -42,5 +42,10 @@ public class User {
     private Set<Role> roles = new HashSet<>();
     
     
+    // relazione uno a molti con utente
+    @OneToMany(mappedBy = "utente")
+    private List<Scheda> schede;
+    
+    
     
 }

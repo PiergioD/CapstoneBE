@@ -1,6 +1,7 @@
 package com.example.capstoneBE.service;
 
 import java.util.List;
+import java.util.Set;
 
 import org.modelmapper.internal.bytebuddy.agent.builder.AgentBuilder.RedefinitionStrategy.Listener.ErrorEscalating;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,14 +14,18 @@ import com.example.capstoneBE.entity.Esercizio;
 import com.example.capstoneBE.entity.GruppiMuscolari;
 import com.example.capstoneBE.entity.Scheda;
 import com.example.capstoneBE.repository.EsercizioRepository;
+import com.example.capstoneBE.repository.SchedaRepository;
 
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 
 @Service
 public class EsercizioService {
 
 	@Autowired
 	EsercizioRepository repo;
+	
+	@Autowired SchedaRepository repoScheda;
 
 	// crea
 	public Esercizio create(Esercizio s) {
@@ -80,10 +85,17 @@ public class EsercizioService {
 		return eserciziPerNome;
 	}
 
-//		// metodino per cercare tramite nome scheda 
-//	public Page<Esercizio> cercaTramiteNomeScheda(String nome,Pageable pageable){
-//		var listFiltrataPerNomeScheda = repo.getEsercizioByScheda(nome);
-//		Page<Esercizio> eserciziPerNomeScheda=PageableExecutionUtils.getPage(listFiltrataPerNomeScheda, pageable, ()->listFiltrataPerNomeScheda.size());
-//		return eserciziPerNomeScheda;}
+// metodino per cercare esercizi tramite un certo utente e una certa scheda
+	public Set<Esercizio> getEserciziBySchedaAndUtente(Long userId, Long schedaId) {
+		return repo.findBySchedaAndUtente(userId, schedaId);
+	}
 
+	// metodino per eliminare un esercizio da una certa scheda di un certo utente
+	 @Transactional
+	    public void deleteEsercizio(Long esercizioId, Long userId, Long schedaId) {
+	        repo.deleteEsercizioFromScheda(esercizioId, userId, schedaId);
+	    }
+	
+	
+	
 }

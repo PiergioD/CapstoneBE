@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
+import com.example.capstoneBE.exception.GlobalExceptionHandler;
 import com.example.capstoneBE.exception.MyAPIException;
 
 import java.security.Key;
@@ -47,14 +48,25 @@ public class JwtTokenProvider {
 
     // get username from Jwt token
     public String getUsername(String token){
+//    	 String username=null;
+//    	 if (token != null && token.startsWith("Bearer")) {
+//             token = token.replace("Bearer", "");
+//             try {
         Claims claims = Jwts.parserBuilder()
                 .setSigningKey(key())
                 .build()
                 .parseClaimsJws(token)
                 .getBody();
-        String username = claims.getSubject();
-        return username;
-    }
+       String username = claims.getSubject();
+       return username;   
+    } 
+//    catch (Exception g) {
+//			
+//		}
+//        }
+
+    	 
+
 
     // validate Jwt token
     public boolean validateToken(String token){

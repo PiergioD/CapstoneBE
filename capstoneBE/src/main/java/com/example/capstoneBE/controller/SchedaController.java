@@ -35,12 +35,12 @@ public class SchedaController {
 	
 	
 	@Autowired SchedaService service;
-	private JwtTokenProvider jwtTokenProvider;
+	@Autowired JwtTokenProvider provider;
 	
 	
 	// create
 	@PostMapping("/create")
-	@PreAuthorize("hasRole('ADMIN')")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	public ResponseEntity<Scheda> postScheda(@RequestBody Scheda s){
 		
 		service.createScheda(s);
@@ -57,8 +57,11 @@ public class SchedaController {
         
     	
     	
-//    	System.out.println(token);
-//    	String username=jwtTokenProvider.getUsername(token);
+    
+    	
+    	
+    	//TODO mi logga di nuovo il token! come lo recupero sto user?
+//    	String username=provider.getUsername(token);
 //    	System.out.println(username);
     	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
         return service.getAll(sorting);
@@ -66,7 +69,7 @@ public class SchedaController {
 	
 	// get by id
     @GetMapping("/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
     public ResponseEntity<Scheda> getClienteById(@PathVariable long id){
         return  new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
     }
@@ -74,7 +77,7 @@ public class SchedaController {
     
     //modifica
     @PutMapping("/update/{id}")
-	@PreAuthorize("hasRole('ADMIN')")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	public ResponseEntity<Scheda> updateScheda(@PathVariable Long id, @RequestBody Scheda schedaToUpdate ) {
 		
     	Scheda schedaEsistente = service.getbyId(id);
@@ -90,7 +93,7 @@ public class SchedaController {
     
   //delete
     @DeleteMapping ("/delete/{id}")
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
     public ResponseEntity<Scheda> deleteCliente(@PathVariable long id){
 
         
@@ -99,7 +102,7 @@ public class SchedaController {
     
     //cerca per data
     @GetMapping("/data/{data}/{page}")
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
     public Page<Scheda> getByUltimoContatto(@PathVariable LocalDate data,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
     	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
     	return service.cercaTramiteData(data, sorting);
@@ -108,7 +111,7 @@ public class SchedaController {
     
     // cerca per parte del nome
     @GetMapping("/nome/{nome}/{page}")
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ADMIN')or hasRole('USER')")
     public Page<Scheda> getByNome(@PathVariable String nome,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
     	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
     	return service.cercaTramiteNome(nome, sorting);
