@@ -1,0 +1,1181 @@
+2023-03-27 10:35:38,691 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-27 10:38:16,472 [Worker-27: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.capstoneBE:capstoneBE:0.0.1-SNAPSHOT @ C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\pom.xml.
+2023-03-27 10:38:18,111 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /capstoneBE/src/main/java
+2023-03-27 10:38:18,112 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /capstoneBE/src/main/resources
+2023-03-27 10:38:18,120 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /capstoneBE/src/main/resources
+2023-03-27 10:38:18,128 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /capstoneBE/src/test/java
+2023-03-27 10:38:19,572 [Worker-27: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2023-03-27 10:38:19,579 [Worker-27: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-27 10:38:20,036 [Worker-27: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.capstoneBE:capstoneBE:0.0.1-SNAPSHOT @ C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\pom.xml.
+2023-03-27 10:38:21,134 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /capstoneBE/src/main/java
+2023-03-27 10:38:21,135 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /capstoneBE/src/main/resources
+2023-03-27 10:38:21,135 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /capstoneBE/src/main/resources
+2023-03-27 10:38:21,137 [Worker-27: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /capstoneBE/src/test/java
+2023-03-27 10:38:22,597 [Worker-27: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2023-03-27 10:41:04,782 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [605])
+2023-03-27 10:41:04,791 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-03-27 10:41:04,791 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-27 10:41:04,793 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-03-27 10:41:04,793 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-03-27 10:41:04,793 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-03-27 10:41:04,794 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-03-27 10:41:04,794 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-03-27 10:41:04,794 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-03-27 10:41:04,795 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-03-27 10:41:04,795 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-03-27 10:41:04,795 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-03-27 10:41:04,795 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-03-27 10:41:04,796 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-03-27 10:41:04,796 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-03-27 10:41:04,796 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-03-27 10:41:04,797 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-03-27 10:41:04,797 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-03-27 10:41:04,797 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-27 10:41:04,798 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-03-27 10:41:04,798 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-03-27 10:41:04,798 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-03-27 10:41:04,799 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-27 10:41:04,799 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-03-27 10:41:04,799 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-03-27 10:41:04,800 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-03-27 10:41:04,800 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-03-27 10:41:04,801 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-03-27 10:41:04,803 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-03-27 10:41:04,803 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-03-27 10:41:04,803 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-03-27 10:41:04,804 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-27 10:41:04,804 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-03-27 10:41:04,805 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-03-27 10:41:04,805 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-03-27 10:41:04,808 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-03-27 10:41:04,810 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-03-27 10:41:04,810 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [917])
+2023-03-27 10:41:04,812 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-27 10:41:04,813 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-03-27 10:41:04,815 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-27 10:41:04,815 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-03-27 10:41:04,817 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Pierg\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-03-27 10:41:04,832 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE":
+2023-03-27 10:41:04,838 [Worker-19: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-03-27 11:01:12,319 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.capstoneBE:capstoneBE:0.0.1-SNAPSHOT @ C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\pom.xml.
+2023-03-27 11:01:13,256 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5.pom
+2023-03-27 11:01:13,310 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5.pom
+2023-03-27 11:01:13,498 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5.jar
+2023-03-27 11:01:13,525 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5.jar
+2023-03-27 11:01:14,668 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:01:14,669 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:01:14,676 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:01:14,949 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5-sources.jar
+2023-03-27 11:01:14,973 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.0.5/spring-boot-starter-validation-3.0.5-sources.jar
+2023-03-27 11:01:14,979 [Worker-38: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.0.5
+2023-03-27 11:01:16,928 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:01:16,975 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:01:16,980 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:02:23,482 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.capstoneBE:capstoneBE:0.0.1-SNAPSHOT @ C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\pom.xml.
+2023-03-27 11:02:25,157 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:02:25,157 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:02:25,162 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:02:27,269 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:02:27,305 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:02:27,308 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:03:20,132 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.capstoneBE:capstoneBE:0.0.1-SNAPSHOT @ C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\pom.xml.
+2023-03-27 11:03:21,688 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:03:21,689 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:03:21,693 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:03:22,510 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:03:22,530 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:03:22,534 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:05:10,316 [Worker-41: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE":
+2023-03-27 11:05:10,317 [Worker-41: Launching Executing install in C__Users_Pierg_OneDrive_Desktop_CapstoneBE_capstoneBE] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-03-27 11:05:30,239 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:05:30,281 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:05:30,284 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:10:12,192 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:10:12,221 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:10:12,226 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:11:12,212 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:11:12,257 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:11:12,260 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:12:06,543 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:12:06,564 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:12:06,567 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:15:18,758 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:15:18,770 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:15:18,774 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:15:27,934 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:15:27,945 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:15:27,951 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:17:19,085 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:17:19,129 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:17:19,133 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:17:59,185 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:17:59,194 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:17:59,198 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:18:08,040 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:18:08,057 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:18:08,059 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:18:23,344 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:18:23,362 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:18:23,367 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:18:52,070 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:18:52,078 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:18:52,080 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:18:57,729 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:18:57,739 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:18:57,742 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:20:19,026 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:20:19,035 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:20:19,037 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:21:29,354 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:21:29,360 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:21:29,364 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:22:09,474 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:22:09,492 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:22:09,512 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:29:11,825 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:29:11,845 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:29:11,848 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:32:50,665 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:32:50,695 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:32:50,702 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:34:01,516 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:34:01,628 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:34:01,631 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 11:58:46,510 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 11:58:46,587 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 11:58:46,595 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:05:29,735 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:05:29,784 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:05:29,787 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:05:41,804 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:05:41,846 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:05:41,849 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:07:59,455 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:07:59,475 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:07:59,478 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:20:29,238 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:20:29,355 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:20:29,362 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:22:28,713 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:22:28,728 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:22:28,731 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:27:35,939 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:27:35,948 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:27:35,952 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:28:10,750 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:28:11,073 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:28:11,081 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:28:57,669 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:28:57,700 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:28:57,704 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:29:10,113 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:29:10,128 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:29:10,131 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:30:08,724 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:30:08,735 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:30:08,739 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:33:38,553 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:33:38,586 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:33:38,591 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:34:09,450 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:34:09,459 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:34:09,463 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:37:26,638 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:37:26,707 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:37:26,709 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 12:37:37,349 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 12:37:37,399 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 12:37:37,402 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:20:56,881 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:20:57,245 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:20:57,294 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:40:57,229 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:40:57,306 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:40:57,309 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:41:56,436 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:41:56,903 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:41:56,930 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:45:11,742 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:45:11,766 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:45:11,769 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:46:26,817 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:46:26,830 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:46:26,834 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:50:10,675 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:50:10,783 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:50:10,788 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:50:21,887 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:50:21,894 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:50:21,897 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:52:12,431 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:52:12,923 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:52:13,020 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:56:34,178 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:56:34,427 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:56:34,435 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 14:58:49,219 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 14:58:49,233 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 14:58:49,235 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:01:03,484 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:01:03,635 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:01:03,640 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:01:56,730 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:01:56,812 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:01:56,816 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:04:05,927 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:04:05,935 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:04:05,938 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:14:51,588 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:14:51,656 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:14:51,659 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:21:37,092 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:21:37,123 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:21:37,127 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:24:25,757 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:24:25,789 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:24:25,810 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:25:05,061 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:25:05,156 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:25:05,160 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:25:31,169 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:25:31,176 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:25:31,178 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:25:42,024 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:25:42,059 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:25:42,062 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:26:48,018 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:26:48,121 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:26:48,124 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:39:05,975 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:39:06,540 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:39:06,552 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:44:02,302 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:44:02,318 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:44:02,324 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:44:32,604 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:44:32,719 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:44:32,722 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:46:20,279 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:46:20,369 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:46:20,373 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:47:49,565 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:47:49,633 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:47:49,635 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:52:21,439 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:52:21,506 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:52:21,515 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:52:32,801 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:52:32,828 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:52:32,830 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:52:53,177 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:52:53,213 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:52:53,216 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:58:02,327 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:58:02,480 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:58:02,483 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 15:59:12,709 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 15:59:12,721 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 15:59:12,726 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:00:03,246 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:00:03,306 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:00:03,310 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:00:07,874 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:00:07,915 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:00:07,918 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:02:47,335 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:02:47,344 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:02:47,346 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:03:11,138 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:03:11,173 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:03:11,177 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:04:09,711 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:04:09,717 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:04:09,720 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:04:36,690 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:04:36,716 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:04:36,719 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:13:17,888 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-27 16:14:31,491 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:14:31,559 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:14:31,569 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:15:36,722 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:15:36,762 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:15:36,769 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:22:07,459 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:22:07,546 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:22:07,550 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:22:26,010 [Worker-32: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:22:26,096 [Worker-32: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:22:26,108 [Worker-32: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:23:49,674 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:23:49,683 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:23:49,686 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:23:59,926 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:23:59,935 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:23:59,939 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:27:01,375 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:27:01,382 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:27:01,385 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:48:02,111 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:48:02,731 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:48:02,760 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:52:19,070 [Worker-37: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:52:19,265 [Worker-37: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:52:19,269 [Worker-37: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:57:08,471 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:57:08,545 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:57:08,550 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 16:59:06,867 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 16:59:06,901 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 16:59:06,906 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:00:05,847 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:00:05,926 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:00:05,932 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:02:16,454 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:02:16,464 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:02:16,470 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:02:29,821 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:02:29,830 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:02:29,834 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:02:47,164 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:02:47,172 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:02:47,176 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:06:07,302 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:06:07,309 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:06:07,315 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:07:14,593 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:07:14,599 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:07:14,601 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:12:24,911 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:12:24,918 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:12:24,922 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:25:46,533 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:25:46,593 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:25:46,596 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:31:18,986 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:31:19,015 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:31:19,024 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:31:33,128 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:31:33,168 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:31:33,172 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:32:30,731 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:32:30,758 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:32:30,779 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:41:23,704 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:41:23,811 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:41:23,832 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:41:54,084 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:41:54,095 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:41:54,099 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 17:44:22,572 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 17:44:22,615 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 17:44:22,618 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-27 23:22:35,689 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-27 23:22:35,865 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-27 23:22:35,872 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 09:38:07,762 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-28 09:49:09,868 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 09:49:09,915 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 09:49:09,922 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 09:52:21,579 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 09:52:21,589 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 09:52:21,593 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 09:52:40,784 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 09:52:40,791 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 09:52:40,794 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 09:55:38,508 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 09:55:38,517 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 09:55:38,520 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 09:56:31,495 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 09:56:31,502 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 09:56:31,505 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:03:31,696 [Worker-39: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:03:31,705 [Worker-39: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:03:31,710 [Worker-39: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:07:14,017 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:07:14,026 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:07:14,029 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:09:01,722 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:09:01,809 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:09:01,816 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:13:40,184 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:13:40,191 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:13:40,194 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:18:28,492 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:18:28,510 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:18:28,513 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:18:54,664 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:18:54,696 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:18:54,698 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:20:13,493 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:20:13,512 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:20:13,517 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:21:21,117 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:21:21,125 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:21:21,127 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:21:37,316 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:21:37,421 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:21:37,424 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:22:28,060 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:22:28,072 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:22:28,076 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:24:32,656 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:24:32,669 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:24:32,674 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:26:25,336 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:26:25,343 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:26:25,346 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:27:31,839 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:27:31,846 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:27:31,850 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:29:14,116 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:29:14,129 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:29:14,133 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:32:55,392 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:32:55,404 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:32:55,406 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:34:25,577 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:34:25,589 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:34:25,592 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:34:59,583 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:34:59,591 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:34:59,594 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:36:16,643 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:36:16,652 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:36:16,656 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:36:51,200 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:36:51,210 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:36:51,214 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:40:45,330 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:40:45,338 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:40:45,341 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:42:31,995 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:42:32,001 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:42:32,004 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:43:02,091 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:43:02,099 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:43:02,102 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:45:02,250 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:45:02,264 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:45:02,268 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:45:47,727 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:45:47,756 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:45:47,759 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:46:48,154 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:46:48,160 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:46:48,165 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 10:47:37,189 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 10:47:37,195 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 10:47:37,197 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:20:15,512 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:20:15,665 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:20:15,671 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:20:39,545 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:20:39,678 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:20:39,682 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:22:27,087 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:22:27,097 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:22:27,101 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:22:38,703 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:22:38,716 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:22:38,719 [Worker-73: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:23:03,305 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:23:03,315 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:23:03,318 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:23:36,291 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:23:36,301 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:23:36,305 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:24:03,531 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:24:03,540 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:24:03,544 [Worker-77: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:41:27,457 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:41:27,602 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:41:27,686 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 11:42:52,283 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 11:42:52,372 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 11:42:52,377 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 12:03:34,757 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 12:03:35,046 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 12:03:35,052 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 12:04:39,438 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 12:04:39,535 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 12:04:39,540 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 12:04:55,452 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 12:04:55,527 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 12:04:55,532 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:27:34,718 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:27:35,074 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:27:35,078 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:27:40,365 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:27:40,663 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:27:40,667 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:34:41,212 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:34:41,295 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:34:41,301 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:37:56,599 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:37:56,652 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:37:56,654 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:46:28,974 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:46:29,031 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:46:29,034 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:47:16,514 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:47:16,559 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:47:16,561 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:51:38,383 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:51:38,391 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:51:38,394 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 14:54:10,688 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 14:54:10,743 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 14:54:10,756 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:13:42,813 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:13:42,902 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:13:42,907 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:22:55,303 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:22:55,767 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:22:55,771 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:23:15,802 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:23:15,866 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:23:15,869 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:23:22,839 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:23:22,876 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:23:22,880 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:29:46,683 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:29:46,732 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:29:46,735 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:42:07,976 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:42:08,012 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:42:08,016 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:42:29,573 [Worker-133: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:42:29,683 [Worker-133: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:42:29,686 [Worker-133: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 15:46:03,293 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 15:46:03,304 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 15:46:03,313 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 16:51:34,362 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 16:51:34,522 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 16:51:34,525 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 16:55:21,242 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 16:55:21,285 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 16:55:21,288 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 16:55:25,593 [Worker-145: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 16:55:25,665 [Worker-145: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 16:55:25,669 [Worker-145: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:05:22,348 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:05:22,810 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:05:22,825 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:06:48,830 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:06:48,863 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:06:48,867 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:07:56,254 [Worker-155: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:07:56,311 [Worker-155: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:07:56,316 [Worker-155: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:11:21,136 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:11:21,202 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:11:21,206 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:19:40,414 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:19:40,469 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:19:40,479 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:20:39,941 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:20:39,979 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:20:39,982 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:22:52,451 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:22:52,489 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:22:52,494 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:24:22,741 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:24:22,763 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:24:22,766 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:24:53,103 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:24:53,178 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:24:53,181 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:25:25,994 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:25:26,000 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:25:26,002 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:28:19,377 [Worker-164: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:28:19,410 [Worker-164: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:28:19,413 [Worker-164: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:34:34,389 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:34:34,406 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:34:34,410 [Worker-165: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:37:11,633 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:37:11,703 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:37:11,711 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:37:29,370 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:37:29,389 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:37:29,392 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:40:24,389 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:40:24,397 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:40:24,399 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:41:15,667 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:41:15,696 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:41:15,700 [Worker-172: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:43:17,924 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:43:17,932 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:43:17,935 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:43:52,564 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:43:52,577 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:43:52,598 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:44:33,514 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:44:33,523 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:44:33,526 [Worker-178: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:44:44,756 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:44:44,764 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:44:44,767 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:46:25,366 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:46:25,378 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:46:25,381 [Worker-180: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:48:12,299 [Worker-177: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:48:12,307 [Worker-177: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:48:12,310 [Worker-177: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:50:12,458 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:50:12,469 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:50:12,472 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:56:55,172 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:56:55,217 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:56:55,221 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:57:47,142 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:57:47,171 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:57:47,173 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:58:59,132 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:58:59,143 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:58:59,145 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-28 17:59:45,151 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-28 17:59:45,160 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-28 17:59:45,162 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:40:50,482 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-29 09:44:22,857 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-29 09:47:09,824 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:47:09,851 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:47:09,857 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:48:06,700 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:48:06,709 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:48:06,714 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:49:26,045 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:49:26,052 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:49:26,056 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:50:47,513 [Worker-19: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:50:47,523 [Worker-19: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:50:47,528 [Worker-19: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:51:29,066 [Worker-0: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:51:29,075 [Worker-0: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:51:29,080 [Worker-0: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:52:29,971 [Worker-16: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:52:29,979 [Worker-16: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:52:29,982 [Worker-16: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:52:58,238 [Worker-26: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:52:58,245 [Worker-26: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:52:58,248 [Worker-26: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 09:53:20,230 [Worker-15: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 09:53:20,240 [Worker-15: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 09:53:20,248 [Worker-15: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:06:13,182 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:06:13,237 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:06:13,240 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:07:46,881 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:07:46,889 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:07:46,892 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:14:04,866 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:14:04,874 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:14:04,877 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:22:47,766 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:22:47,828 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:22:47,831 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:23:20,119 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:23:20,126 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:23:20,129 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:25:25,380 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:25:25,386 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:25:25,389 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:34:37,509 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:34:37,583 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:34:37,586 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:37:01,785 [Worker-46: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:37:01,795 [Worker-46: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:37:01,801 [Worker-46: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 10:46:56,375 [Worker-48: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 10:46:56,386 [Worker-48: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 10:46:56,391 [Worker-48: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 11:23:06,837 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 11:23:06,870 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 11:23:06,874 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 11:23:30,649 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 11:23:30,710 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 11:23:30,730 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 11:33:04,412 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 11:33:04,427 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 11:33:04,430 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 11:50:56,793 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 11:50:56,827 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 11:50:56,829 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 11:52:44,407 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 11:52:44,414 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 11:52:44,416 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 12:30:03,150 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 12:30:03,498 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 12:30:03,503 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 12:31:02,041 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 12:31:02,060 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 12:31:02,068 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 12:31:16,367 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 12:31:16,375 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 12:31:16,378 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 12:33:11,741 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 12:33:11,750 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 12:33:11,755 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 12:34:50,805 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 12:34:50,821 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 12:34:50,827 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 14:29:41,408 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-29 15:06:28,553 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:06:28,581 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:06:28,586 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:13:29,443 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:13:29,455 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:13:29,459 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:13:40,567 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:13:40,609 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:13:40,615 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:16:01,518 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:16:01,563 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:16:01,568 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:17:41,792 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:17:41,821 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:17:41,825 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:18:58,589 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:18:58,631 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:18:58,634 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:20:56,670 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:20:56,699 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:20:56,704 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:36:43,021 [Worker-41: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:36:43,454 [Worker-41: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:36:43,466 [Worker-41: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:38:26,399 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:38:26,604 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:38:26,615 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:38:44,756 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:38:44,815 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:38:44,820 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 15:50:44,591 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 15:50:44,982 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 15:50:44,990 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 16:14:38,368 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 16:14:38,652 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 16:14:38,692 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 16:25:39,703 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 16:25:39,749 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 16:25:39,752 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 16:26:16,527 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 16:26:16,652 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 16:26:16,655 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 16:30:06,200 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 16:30:06,410 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 16:30:06,417 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 16:33:22,707 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 16:33:22,786 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 16:33:22,797 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:27:59,271 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:27:59,426 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:27:59,429 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:34:49,563 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:34:50,222 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:34:50,228 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:55:10,836 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:55:10,958 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:55:10,963 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:56:36,908 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:56:36,925 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:56:36,929 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:56:56,823 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:56:56,841 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:56:56,844 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:57:41,612 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:57:41,621 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:57:41,626 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 17:58:54,798 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 17:58:54,812 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 17:58:54,817 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 18:01:20,597 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 18:01:20,644 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 18:01:20,686 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 18:02:35,773 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 18:02:35,863 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 18:02:35,867 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 18:15:35,159 [Worker-114: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 18:15:35,284 [Worker-114: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 18:15:35,287 [Worker-114: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-29 22:39:27,221 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-29 22:39:27,467 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-29 22:39:27,473 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:09:07,278 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-30 09:15:28,277 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:15:28,311 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:15:28,317 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:20:41,318 [Worker-36: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:20:41,424 [Worker-36: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:20:41,427 [Worker-36: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:24:58,143 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:24:58,493 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:24:58,498 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:25:50,518 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:25:50,529 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:25:50,534 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:26:01,082 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:26:01,093 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:26:01,098 [Worker-31: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:28:59,236 [Worker-45: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:28:59,269 [Worker-45: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:28:59,274 [Worker-45: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 09:42:05,812 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 09:42:05,954 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 09:42:05,957 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:01:27,078 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:01:27,170 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:01:27,180 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:15:37,318 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:15:37,420 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:15:37,424 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:17:14,066 [Worker-66: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:17:14,144 [Worker-66: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:17:14,149 [Worker-66: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:18:35,261 [Worker-64: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:18:35,275 [Worker-64: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:18:35,278 [Worker-64: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:18:58,617 [Worker-67: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:18:58,630 [Worker-67: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:18:58,635 [Worker-67: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:21:20,179 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:21:20,189 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:21:20,191 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:43:54,917 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:43:55,033 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:43:55,036 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:46:05,734 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:46:05,745 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:46:05,748 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:52:57,138 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:52:57,179 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:52:57,184 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:54:13,172 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:54:13,194 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:54:13,197 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:56:07,450 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:56:07,486 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:56:07,489 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 10:56:18,755 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 10:56:18,777 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 10:56:18,780 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:09:39,538 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:09:39,736 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:09:39,739 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:10:05,079 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:10:05,093 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:10:05,099 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:10:33,520 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:10:33,528 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:10:33,530 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:11:17,879 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:11:17,887 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:11:17,890 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:11:54,872 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:11:54,880 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:11:54,885 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:12:06,698 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:12:06,707 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:12:06,711 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:12:51,399 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:12:51,408 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:12:51,411 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:16:52,275 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:16:52,316 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:16:52,318 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:20:55,030 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:20:55,096 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:20:55,099 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:31:32,321 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:31:32,407 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:31:32,411 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:37:41,326 [Worker-100: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:37:41,399 [Worker-100: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:37:41,402 [Worker-100: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:38:06,747 [Worker-88: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:38:06,782 [Worker-88: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:38:06,788 [Worker-88: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:53:00,617 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:53:00,779 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:53:00,783 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:53:11,508 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:53:11,525 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:53:11,528 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:55:22,998 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:55:23,006 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:55:23,009 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 11:56:43,276 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 11:56:43,283 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 11:56:43,285 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 12:02:50,090 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 12:02:50,103 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 12:02:50,107 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 12:07:43,122 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 12:07:43,151 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 12:07:43,154 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-03-30 14:38:29,075 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-30 14:38:29,350 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-30 14:38:29,354 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 11:23:09,368 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-05 11:33:21,985 [Worker-30: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 11:33:22,017 [Worker-30: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 11:33:22,022 [Worker-30: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 15:25:00,768 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 15:25:00,861 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 15:25:00,865 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 15:25:40,767 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 15:25:40,871 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 15:25:40,878 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 15:30:39,688 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 15:30:39,765 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 15:30:39,771 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 15:50:29,884 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 15:50:29,952 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 15:50:29,958 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 15:51:09,928 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 15:51:09,936 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 15:51:09,939 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:05:44,117 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:05:44,248 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:05:44,251 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:08:07,322 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:08:07,333 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:08:07,339 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:08:23,254 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:08:23,264 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:08:23,271 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:11:31,026 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:11:31,034 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:11:31,037 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:13:25,046 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:13:25,057 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:13:25,061 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:14:15,849 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:14:15,884 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:14:15,889 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:14:23,807 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:14:23,824 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:14:23,827 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:15:48,114 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:15:48,134 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:15:48,139 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:16:15,703 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:16:15,779 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:16:15,782 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:16:27,731 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:16:27,740 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:16:27,743 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:20:55,379 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:20:55,484 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:20:55,489 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:21:37,786 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:21:37,814 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:21:37,817 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:22:27,687 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:22:27,744 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:22:27,747 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:28:15,276 [Worker-87: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:28:15,477 [Worker-87: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:28:15,480 [Worker-87: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:29:46,788 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:29:46,915 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:29:46,918 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:39:07,681 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:39:08,002 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:39:08,005 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:41:26,402 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:41:26,451 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:41:26,456 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:47:20,582 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:47:20,779 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:47:20,805 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:50:00,501 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:50:00,608 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:50:00,611 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:50:40,677 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:50:40,719 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:50:40,723 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:52:43,347 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:52:43,360 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:52:43,364 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:54:00,429 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:54:00,498 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:54:00,501 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:54:43,188 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:54:43,207 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:54:43,210 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:58:32,421 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:58:32,486 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:58:32,491 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 16:59:06,339 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 16:59:06,467 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 16:59:06,471 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:03:05,080 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:03:05,181 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:03:05,188 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:03:44,352 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:03:44,441 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:03:44,444 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:04:47,745 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:04:47,763 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:04:47,767 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:04:54,140 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:04:54,190 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:04:54,193 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:05:07,485 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:05:07,580 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:05:07,582 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:08:25,450 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:08:25,475 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:08:25,481 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:09:07,329 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:09:07,360 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:09:07,363 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:17:31,823 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:17:31,916 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:17:31,920 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:19:28,248 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:19:28,296 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:19:28,299 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:34:12,273 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:34:12,315 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:34:12,320 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:43:13,376 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:43:15,092 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:43:15,129 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:43:16,879 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:43:17,195 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:43:17,211 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:48:08,977 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:48:09,538 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:48:09,548 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:51:12,011 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:51:12,144 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:51:12,160 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:54:51,015 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:54:51,079 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:54:51,085 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-05 17:55:22,775 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-05 17:55:23,021 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-05 17:55:23,039 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-06 09:39:23,997 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-06 17:18:13,970 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-06 17:18:14,272 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-06 17:18:14,276 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-06 21:53:25,363 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-06 21:53:25,822 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-06 21:53:25,830 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-07 09:39:45,232 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-07 10:12:50,990 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-07 10:12:51,149 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-07 10:12:51,155 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-07 10:12:59,563 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-07 10:12:59,752 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-07 10:12:59,757 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-07 10:23:31,210 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-07 10:23:31,277 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-07 10:23:31,309 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 09:14:42,304 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-11 09:50:27,594 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 09:50:27,771 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 09:50:27,777 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 09:50:35,134 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 09:50:35,150 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 09:50:35,154 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 10:31:41,737 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 10:31:41,897 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 10:31:41,900 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:14:21,187 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:14:21,525 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:14:21,530 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:25:46,082 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:25:46,142 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:25:46,145 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:26:19,023 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:26:19,058 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:26:19,063 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:34:05,886 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:34:05,982 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:34:05,985 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:38:49,131 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:38:49,245 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:38:49,253 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:39:32,047 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:39:32,058 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:39:32,061 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:41:04,286 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:41:04,315 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:41:04,320 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 12:41:36,225 [Worker-61: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 12:41:36,238 [Worker-61: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 12:41:36,246 [Worker-61: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:11:47,698 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:11:47,898 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:11:47,904 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:14:50,853 [Worker-65: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:14:51,034 [Worker-65: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:14:51,039 [Worker-65: Launching capstoneBE - CapstoneBeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:15:10,155 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:15:10,190 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:15:10,197 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:20:51,687 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:20:51,733 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:20:51,738 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:21:28,709 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:21:28,734 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:21:28,739 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:26:54,632 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:26:54,768 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:26:54,774 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-11 15:28:33,650 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-11 15:28:34,002 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-11 15:28:34,014 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-12 09:20:40,170 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-13 10:26:36,278 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-14 09:40:36,336 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-17 09:25:04,172 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-18 09:36:41,435 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-18 12:25:33,450 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-18 12:25:33,586 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-18 12:25:33,592 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-18 12:26:15,401 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-18 12:26:15,425 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-18 12:26:15,430 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-18 14:46:12,524 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-18 14:46:12,543 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-18 14:46:12,547 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-18 14:47:49,186 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-18 14:47:49,197 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-18 14:47:49,203 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-19 10:13:37,094 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-19 16:19:29,761 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-19 16:19:29,797 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-19 16:19:29,802 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-20 10:10:35,017 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 10:28:16,778 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-20 10:34:46,593 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 10:35:09,422 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 10:35:09,478 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 10:35:09,488 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-20 11:29:16,073 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 12:41:17,707 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 12:41:17,733 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 12:41:17,740 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-20 12:52:18,412 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 13:07:55,953 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 13:07:56,037 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 13:07:56,042 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
+2023-04-20 13:24:33,212 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 13:24:55,004 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 13:24:55,055 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 13:24:55,063 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pierg\OneDrive\Desktop\CapstoneBE\capstoneBE\src\test\resources
