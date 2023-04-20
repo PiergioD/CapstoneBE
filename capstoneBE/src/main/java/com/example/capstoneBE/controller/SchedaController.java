@@ -24,11 +24,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.capstoneBE.entity.Scheda;
+import com.example.capstoneBE.entity.User;
 import com.example.capstoneBE.security.JwtTokenProvider;
 import com.example.capstoneBE.service.SchedaService;
+import com.example.capstoneBE.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "*",maxAge = 3600)
+
 @RequestMapping("api/capstone/scheda")
 public class SchedaController {
 
@@ -36,12 +38,16 @@ public class SchedaController {
 	
 	@Autowired SchedaService service;
 	@Autowired JwtTokenProvider provider;
-	
+	@Autowired UserService serviceUser;
 	
 	// create
-	@PostMapping("/create")
+	@PostMapping("dashboard/{id}/create")
 	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	public ResponseEntity<Scheda> postScheda(@RequestBody Scheda s){
+	public ResponseEntity<Scheda> postScheda(@PathVariable Long id, @RequestBody Scheda s){
+		
+		User user= serviceUser.getbyId(id);
+		s.setUtente(user);
+		
 		
 		service.createScheda(s);
 		return new ResponseEntity<>(s,HttpStatus.OK);
@@ -70,7 +76,7 @@ public class SchedaController {
 	// get by id
     @GetMapping("/{id}")
     @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-    public ResponseEntity<Scheda> getClienteById(@PathVariable long id){
+    public ResponseEntity<Scheda> getSchedaById(@PathVariable long id){
         return  new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
     }
 	

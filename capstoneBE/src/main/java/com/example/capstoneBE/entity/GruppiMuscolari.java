@@ -4,7 +4,7 @@ public enum GruppiMuscolari {
 	
 	
 	
-	Spalle,Gambe,Tricipiti,Addominali,Bicipiti,Petto,Dorso
+	Spalle,Gambe,Tricipiti,Addominali,Bicipiti,Petto,Dorso,Polpacci
 	
 
 }
