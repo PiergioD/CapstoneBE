@@ -43,7 +43,7 @@ public class User {
     
     
     // relazione uno a molti con utente
-    @OneToMany(mappedBy = "utente")
+    @OneToMany(mappedBy = "utente",cascade = CascadeType.ALL)
     private List<Scheda> schede;
     
     

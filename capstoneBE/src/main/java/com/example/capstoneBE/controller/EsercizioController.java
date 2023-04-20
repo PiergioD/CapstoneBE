@@ -25,91 +25,75 @@ import com.example.capstoneBE.entity.Esercizio;
 import com.example.capstoneBE.entity.Scheda;
 import com.example.capstoneBE.repository.EsercizioRepository;
 import com.example.capstoneBE.service.EsercizioService;
+import com.example.capstoneBE.service.SchedaService;
 
 @RestController
-@CrossOrigin(origins = "*",maxAge = 3600)
+
 @RequestMapping("api/capstone/esercizio")
 public class EsercizioController {
 
-	
-	
-	
-	@Autowired EsercizioService service;
-	
-	// create
-		@PostMapping
-		@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-		public ResponseEntity<Esercizio> postScheda(@RequestBody Esercizio s){
-			
-			service.create(s);
-			return new ResponseEntity<>(s,HttpStatus.OK);
-			
-			
-		}
-		
-		
-		 // pagina per fare ordinarli in base ad uno degli attributi di esercizio
-	    @GetMapping("/page/{page}/{sortBy}")
-	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	    public Page<Esercizio> getAllScheda(@PathVariable int page, @RequestParam(defaultValue = "10") int size, @PathVariable String sortBy) {
-	        Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
-	        return service.getAll(sorting);
-	    }
-		
-	    
-	    
-		// get by id
-	    @GetMapping("/{id}")
-	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	    public ResponseEntity<Esercizio> getClienteById(@PathVariable long id){
-	        return  new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
-	    }
-		
-	    
-	    
-	    //modifica
-	    @PutMapping("/update/{id}")
-		@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-		public ResponseEntity<Esercizio> updateEsercizio(@RequestBody Esercizio esercizioToUpdate,@PathVariable Long id) {
-			
-	    	Esercizio esercizioEsistente = service.getbyId(id);
-	    	
-	    	
-	    	esercizioEsistente.setSerie(esercizioToUpdate.getSerie());
-	    	esercizioEsistente.setRipetizioni(esercizioToUpdate.getRipetizioni());
-	    
-	    	
-	    	
-	    	
-	    	return new ResponseEntity<Esercizio>(service.updateEsercizio(esercizioEsistente), HttpStatus.OK);
-		}
-	    
-	    
-	    
-	    
-	  //delete
-	    @DeleteMapping ("/delete/{id}")
-	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	    public ResponseEntity<Esercizio> deleteCliente(@PathVariable long id){
+	@Autowired
+	SchedaService serviceScheda;
+	@Autowired
+	EsercizioService service;
 
-	        
-	        return new ResponseEntity<>(service.deleteById(id), HttpStatus.OK);}
-	    
-	    
-	    
-	    
-	    
-	    // cerca per parte del nome
-	    @GetMapping("/nome/{nome}/{page}")
-	    @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	    public Page<Esercizio> getByNome(@PathVariable String nome,@PathVariable int page, @RequestParam(defaultValue = "10") int size,@RequestParam(defaultValue="id") String sortBy){
-	    	Pageable sorting= PageRequest.of(page, size, Sort.by(sortBy));
-	    	return service.cercaTramiteNome(nome, sorting);
-	    }
-	
-	
-	    
-	    
-	
-	
+	// create
+	@PostMapping("/scheda/{id}/create")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public ResponseEntity<Esercizio> postScheda(@RequestBody Esercizio s, @PathVariable Long id) {
+		Scheda scheda = serviceScheda.getbyId(id);
+		s.setScheda(scheda);
+		service.create(s);
+		return new ResponseEntity<>(s, HttpStatus.OK);
+
+	}
+
+	// pagina per fare ordinarli in base ad uno degli attributi di esercizio
+	@GetMapping("/page/{page}/{sortBy}")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public Page<Esercizio> getAllScheda(@PathVariable int page, @RequestParam(defaultValue = "10") int size,
+			@PathVariable String sortBy) {
+		Pageable sorting = PageRequest.of(page, size, Sort.by(sortBy));
+		return service.getAll(sorting);
+	}
+
+	// get by id
+	@GetMapping("/{id}")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public ResponseEntity<Esercizio> getClienteById(@PathVariable long id) {
+		return new ResponseEntity<>(service.getbyId(id), HttpStatus.OK);
+	}
+
+	// modifica
+	@PutMapping("/update/{id}")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public ResponseEntity<Esercizio> updateEsercizio(@RequestBody Esercizio esercizioToUpdate, @PathVariable Long id) {
+
+		Esercizio esercizioEsistente = service.getbyId(id);
+		esercizioEsistente.setNome(esercizioToUpdate.getNome());
+		esercizioEsistente.setMuscolo(esercizioToUpdate.getMuscolo());
+		esercizioEsistente.setDescrizione(esercizioToUpdate.getDescrizione());
+		esercizioEsistente.setSerie(esercizioToUpdate.getSerie());
+		esercizioEsistente.setRipetizioni(esercizioToUpdate.getRipetizioni());
+
+		return new ResponseEntity<Esercizio>(service.updateEsercizio(esercizioEsistente), HttpStatus.OK);
+	}
+
+	// delete
+	@DeleteMapping("/delete/{id}")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public ResponseEntity<Esercizio> deleteCliente(@PathVariable long id) {
+
+		return new ResponseEntity<>(service.deleteById(id), HttpStatus.OK);
+	}
+
+	// cerca per parte del nome
+	@GetMapping("/nome/{nome}/{page}")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	public Page<Esercizio> getByNome(@PathVariable String nome, @PathVariable int page,
+			@RequestParam(defaultValue = "10") int size, @RequestParam(defaultValue = "id") String sortBy) {
+		Pageable sorting = PageRequest.of(page, size, Sort.by(sortBy));
+		return service.cercaTramiteNome(nome, sorting);
+	}
+
 }

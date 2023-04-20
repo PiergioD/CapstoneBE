@@ -55,7 +55,7 @@ public class Scheda {
 	
 	
 	//relazione uno a molti con esercizi
-	@OneToMany(mappedBy = "scheda")
+	@OneToMany(mappedBy = "scheda",cascade = CascadeType.ALL)
 	private Set<Esercizio> esercizi;
 	
 	

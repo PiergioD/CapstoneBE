@@ -28,6 +28,11 @@ public class EsercizioRunner implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		System.out.println("Run...Per creare esercizio e scheda");
+		
+		
+		
+		
+		
 
 //		popolaDbScheda();
 

@@ -15,6 +15,7 @@ import com.example.capstoneBE.entity.ERole;
 import com.example.capstoneBE.entity.Role;
 import com.example.capstoneBE.entity.User;
 import com.example.capstoneBE.exception.MyAPIException;
+import com.example.capstoneBE.payload.JWTAuthResponse;
 import com.example.capstoneBE.payload.LoginDto;
 import com.example.capstoneBE.payload.RegisterDto;
 import com.example.capstoneBE.repository.RoleRepository;
@@ -46,8 +47,10 @@ public class AuthServiceImpl implements AuthService {
     }
 
     @Override
-    public String login(LoginDto loginDto) {
+    public JWTAuthResponse login(LoginDto loginDto) {
         
+    	
+    	// crea il token
     	Authentication authentication = authenticationManager.authenticate(
         		new UsernamePasswordAuthenticationToken(
         				loginDto.getUsername(), loginDto.getPassword()
@@ -58,7 +61,19 @@ public class AuthServiceImpl implements AuthService {
 
         String token = jwtTokenProvider.generateToken(authentication);
 
-        return token;
+        
+        // crea oggetto jwtaiuth reponse
+        JWTAuthResponse jwtAuthResponse = new JWTAuthResponse();
+        jwtAuthResponse.setUsername(loginDto.getUsername());
+        jwtAuthResponse.setAccessToken(token);
+        User user = userRepository.findByUsername(loginDto.getUsername()).get();
+        jwtAuthResponse.setEmail(user.getEmail());
+        jwtAuthResponse.setId(user.getId());
+        jwtAuthResponse.setName(user.getName());
+        jwtAuthResponse.setRoles(user.getRoles());
+        jwtAuthResponse.setSchede(user.getSchede());
+       
+        return jwtAuthResponse;
     }
 
     @Override
