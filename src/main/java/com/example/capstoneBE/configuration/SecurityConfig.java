@@ -81,7 +81,7 @@ public class SecurityConfig {
     @Bean
 	   public CorsConfigurationSource corsConfigurationSource() {
 	      CorsConfiguration configuration = new CorsConfiguration();
-	      configuration.setAllowedOrigins(Arrays.asList("https://capstone-1d6e6.web.app"));
+	      configuration.setAllowedOrigins(Arrays.asList("http://localhost:4200/"));
 	      configuration.setAllowedMethods(Arrays.asList("GET","POST","OPTIONS","PUT","DELETE"));
 	      configuration.setAllowedHeaders(Arrays.asList("content-type","Authorization"));
 	      configuration.setAllowCredentials(true);
